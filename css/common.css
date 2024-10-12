@@ -1,25 +1,29 @@
+/** CSS FONTS **/
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
 /** CSS VARIABLES **/
 :root {
   --body-max-width: 700px;
   --popup-width: 600px;
 
-  --base-color-primary: #f5fbff;
-  --base-color-primary-dark: #e8f0fe;
+  --base-color-primary: #D6F0FF;
+  --base-color-primary-dark: #B6E4FF;
   --base-color-secondary: #fff;
-  --base-color-dark: #2b2a33;
-  --base-color-outline-light: #ccc;
-  --base-color-outline-dark: #222;
+  --base-color-dark: #2941FF;
+  --base-color-outline-light: #2941FF;
+  --base-color-outline-dark: #2941FF;
 
-  --primary-color: #005799;
-  --secondary-color: #ceeaff;
-  --accent-color: #3174f1;
-  --accent-color-dark: #205ed0;
-  --notification-color: #f8f3d6;
-  --disabled-color: #3f3f3f;
+  --primary-color: #2941FF;
+  --secondary-color: #D6F0FF;
+  --accent-color: #297CFF;
+  --accent-color-dark: #0063FF;
+  --notification-color: #FFF4D6;
+  --disabled-color: #297CFF;
 
   --text-color-primary: #000;
   --text-color-white: #fff;
-  --text-link-color: #005799;
+  --text-link-color: #2941FF;
 
   --header-padding: .5em 1em;
   --default-icon-size: 18px;
@@ -31,7 +35,7 @@ body {
   margin: 0 auto;
   padding: 20px;
   background-color: var(--base-color-dark);
-  font-family: Helvetica, Sans-Serif;
+  font-family: "Itim", Helvetica, Sans-Serif;
   font-size: .9rem;
   color: var(--text-color-primary);
 }
@@ -63,6 +67,7 @@ h1 {
   font-size: 1.3rem;
   padding: .5em 0;
   margin: 0;
+  font-family: "Poetsen One", Helvetica, Sans-Serif;
 }
 
 h2 {
@@ -70,6 +75,7 @@ h2 {
   text-align: center;
   padding: .5em 0 0 0;
   margin: 0;
+  font-family: "Poetsen One", Helvetica, Sans-Serif;
 }
 
 /* CONTAINERS AND LAYOUT */
