@@ -5572,6 +5572,26 @@
     "destination_host": "Miraheze"
   },
   {
+    "id": "en-gloomwood",
+    "origins_label": "Gloomwood Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Gloomwood Fandom Wiki",
+        "origin_base_url": "gloomwood.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Gloomwood_Wiki"
+      }
+    ],
+    "destination": "Gloomwood Wiki",
+    "destination_base_url": "gloomwood.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "gloomwoodwiki.png",
+    "destination_main_page": "Gloomwood_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-gnorp",
     "origins_label": "(the) Gnorp Apologue Fandom Wiki",
     "origins": [
@@ -10944,6 +10964,25 @@
     "destination_content_path": "/page/"
   },
   {
+    "id": "en-sandraidersofsophie",
+    "origins_label": "SAND: Raiders of Sophie Fandom Wiki",
+    "origins": [
+      {
+        "origin": "SAND: Raiders of Sophie Fandom Wiki",
+        "origin_base_url": "sand-raiders-of-sophie.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "SAND:_Raiders_of_Sophie_Wiki"
+      }
+    ],
+    "destination": "SAND: Raiders of Sophie Wiki",
+    "destination_base_url": "sandgame.wiki",
+    "destination_platform": "mediawiki",
+    "destination_icon": "sandraidersofsophie.png",
+    "destination_main_page": "Welcome_to_the_SAND:_Raiders_of_Sophie_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/index.php/"
+  },
+  {
     "id": "en-sandboxels",
     "origins_label": "Sandboxels Fandom Wiki",
     "origins": [
@@ -13285,6 +13324,29 @@
     "destination_search_path": "/index.php",
     "destination_content_path": "/wiki/",
     "destination_host": "wiki.gg"
+  },
+  {
+    "id": "en-tsukisodyssey",
+    "origins_label": "Tsuki's Odyssey Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Tsuki's Odyssey Fandom Wiki",
+        "origin_base_url": "tsuki-odyssey.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Tsuki%27s_Odyssey_Wiki"
+      }
+    ],
+    "destination": "Tsuki's Odyssey Wiki",
+    "destination_base_url": "tsukisodyssey.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "tsukisodysseywiki.png",
+    "destination_main_page": "Tsuki%27s_Odyssey_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg",
+    "tags": [
+      "official"
+    ]
   },
   {
     "id": "en-turnipboy",
